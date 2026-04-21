@@ -1,4 +1,4 @@
-if CK40
+if SHIELD_CK40
 
 config ZMK_KEYBOARD_NAME
     default "CK40"

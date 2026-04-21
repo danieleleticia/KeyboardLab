@@ -1,2 +1,2 @@
-config CK40
-    bool "CK40 keyboard"
+config SHIELD_CK40
+    def_bool $(shields_list_contains,ck40)
