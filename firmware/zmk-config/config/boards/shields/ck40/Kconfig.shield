@@ -1,0 +1,2 @@
+config CK40
+    bool "CK40 keyboard"

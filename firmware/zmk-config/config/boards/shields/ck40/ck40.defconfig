@@ -1,0 +1,9 @@
+if CK40
+
+config ZMK_KEYBOARD_NAME
+    default "CK40"
+
+config USB_DEVICE_PRODUCT
+    default "CK40"
+
+endif

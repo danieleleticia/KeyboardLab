@@ -1,0 +1,6 @@
+# Este arquivo diz ao GitHub Actions o que compilar, qual controlador e qual placa usar.
+# trigger: ci run
+
+include:
+  - board: promicro_nrf52840
+    shield: ck40
