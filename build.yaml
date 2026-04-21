@@ -2,5 +2,5 @@
 # trigger: ci run
 
 include:
-  - board: nice_nano
+  - board: nice_nano//zmk 
     shield: ck40
