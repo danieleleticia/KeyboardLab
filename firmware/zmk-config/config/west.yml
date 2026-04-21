@@ -2,14 +2,14 @@
 # 'YAML' é um formato de arquivo de configuração, 'yaml funciona da mesma maneira que JSON, mas sem as chaves e aspas.
 # 'west' é a ferramenta de gerenciamento de projetos usada pelo ZMK. 
 
-manifest: 
+manifest:
   remotes:
     - name: zmkfirmware
-      url-base:https://github.com/zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:
-    path:config
+    path: config
